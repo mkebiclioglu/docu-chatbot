@@ -1,0 +1,80 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python virtual environments
+venv/
+.venv/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDEs
+.vscode/
+.idea/
+
+# Environment and secrets
+.env
+.env.*
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Hugging Face & LangChain caches
+.cache/
+__results__/
+outputs/
+index_store/
+
+# Gradio temp files
+gradio_cached_examples/
+
+# PDF or data folders (optional, if you embed from local PDF)
+docs/
+pdfs/
+manual.pdf
+
+# OS-generated thumbnail cache files
+._*
+
+# PyInstaller
+dist/
+build/
+*.spec
+
+# Test output
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.cache
+nosetests.xml
+test-results.xml
+junit-*.xml
+
+# MyPy and Pyright
+.mypy_cache/
+.pyright/
+
+# Local development database
+*.sqlite3
+
+# VS Code debug history
+.history/
+
+# Node (if you add JS interface)
+node_modules/
+
+# Optional: Jupyter notebooks
+*.ipynb
